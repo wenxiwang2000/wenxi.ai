@@ -20,6 +20,7 @@ It is designed so users can install it easily, import it in Python, or run it di
 
 ## 📁 Project Structure
 ```text
+new .toml structure--new pypi version
 wenxi-ai/
 │
 ├─ pyproject.toml
@@ -28,7 +29,7 @@ wenxi-ai/
    ├─ __init__.py
    └─ cli.py
 
-
+legcy strucutre--old version python
 wenxi-ai-tools/
 │
 ├── wenxi_ai_tools/
