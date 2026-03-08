@@ -1,46 +1,31 @@
-# wenxi-ai-tools
+# 🚀 wenxi-ai-tools
 
-A simple Python package by Wenxi with a command-line entry point.
+A simple and practical Python package by **Wenxi** with both:
 
-## Install locally
+- **Python package usage**
+- **command-line usage**
 
-```bash
-pip install .
-```
+It is designed so users can install it easily, import it in Python, or run it directly as a terminal command.
 
-## Use as a Python package
+---
 
-```python
-from wenxi_ai_tools import hello
+## ✨ Features
 
-hello()
-```
+- 📦 Easy to install
+- 🐍 Can be used as a normal Python package
+- 💻 Can be run as a command-line tool
+- ⚡ Simple structure, easy to extend later for tools like CSV cleaner, SmartGut, or IFA
 
-## Use as a command
+---
 
-```bash
-wenxi-ai-tools
-```
+## 📁 Project Structure
 
-## Build
-
-```bash
-python -m pip install --upgrade setuptools wheel twine
-python setup.py sdist bdist_wheel
-```
-
-## Upload to PyPI
-
-```bash
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD=pypi-xxxx
-python -m twine upload dist/*
-```
-
-On Windows PowerShell:
-
-```powershell
-$env:TWINE_USERNAME="__token__"
-$env:TWINE_PASSWORD="pypi-xxxx"
-python -m twine upload dist/*
-```
+```text
+wenxi-ai-tools/
+│
+├── wenxi_ai_tools/
+│   ├── __init__.py
+│   └── main.py
+│
+├── setup.py
+└── README.md
