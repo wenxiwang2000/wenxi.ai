@@ -1,4 +1,4 @@
-# 🚀 wenxi-ai-tools
+# 🚀 wenxi-ai-tools(.toml version&legacy version)
 
 A simple and practical Python package by **Wenxi** with both:
 
